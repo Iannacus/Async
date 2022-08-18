@@ -1,0 +1,28 @@
+
+
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.hpCard {
+  background: #c9c9c9;
+  border-radius: 7px;
+  padding: 20px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer {
+  width: 90%;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
